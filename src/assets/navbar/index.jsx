@@ -14,8 +14,8 @@ const Navbar = () => {
   };
   return (
     // Navigasi Bar
-    <header className={`${toggle ? "h-full" : 'h-20 bg-white'} fixed w-full top-0 border-b border-b-gray-300 `}>
-      <nav className="flex items-center justify-between h-20 mx-24 max-md:mx-12 max-sm:mx-8">
+    <header className={`${toggle ? "h-full" : 'h-20 bg-white'} fixed px-24 max-md:px-12 max-sm:px-8 w-full left-0 top-0 border-b border-b-gray-300 z-10`}>
+      <nav className="flex items-center justify-between h-20">
         {/* Logo */}
         <h1 className="font-bold text-xl z-10">Logo.</h1>
         {/* List Navigasi */}

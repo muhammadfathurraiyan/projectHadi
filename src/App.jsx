@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './assets/navbar'
 import Beranda from './assets/beranda'
+import Product from './assets/product'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <main>
         <Beranda />
+        <Product />
       </main>
     </>
   )
