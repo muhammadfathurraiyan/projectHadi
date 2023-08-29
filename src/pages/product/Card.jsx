@@ -3,10 +3,10 @@ import { FaCheck } from "react-icons/fa6";
 
 const Card = () => {
   return (
-    <div className="w-80 bg-white rounded-lg">
+    <div className="bg-white rounded-lg">
       <img
         className="h-44 w-80 object-cover rounded-t-lg"
-        src="https://picsum.photos/seed/fruit/300"
+        src="https://picsum.photos/800"
         alt=""
       />
       <div className="px-6 py-6">

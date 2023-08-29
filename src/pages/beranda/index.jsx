@@ -2,7 +2,7 @@ import React from "react";
 
 const Beranda = () => {
   return (
-    <section className="relative px-24 max-md:px-12 max-sm:px-8 flex items-center justify-center h-screen max-md:h-[120vh]">
+    <section id="beranda" className="relative px-24 max-md:px-12 max-sm:px-8 flex items-center justify-center h-screen max-md:h-[120vh]">
       <div className="flex justify-around items-center max-md:flex-col max-md:items-start max-md:justify-center">
         <div className="w-[50%] max-md:w-full">
           <h1 className="font-bold text-5xl max-md:text-4xl uppercase">
