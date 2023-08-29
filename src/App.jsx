@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './assets/navbar'
-import Beranda from './assets/beranda'
-import Product from './assets/product'
+import Navbar from './pages/navbar'
+import Beranda from './pages/beranda'
+import Product from './pages/product'
 
 const App = () => {
   return (

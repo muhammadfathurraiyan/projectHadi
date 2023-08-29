@@ -6,13 +6,13 @@ const Card = () => {
     <div className="w-80 bg-white rounded-lg">
       <img
         className="h-44 w-80 object-cover rounded-t-lg"
-        src="https://picsum.photos/300"
+        src="https://picsum.photos/seed/fruit/300"
         alt=""
       />
       <div className="px-6 py-6">
         <div className="mb-4">
           <h3 className="font-semibold text-lg">Lorem 1</h3>
-          <p>Rp.12.000</p>
+          <p className="font-medium">Rp.12.000</p>
         </div>
         <div>
           <ul>

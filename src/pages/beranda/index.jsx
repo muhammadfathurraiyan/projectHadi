@@ -8,7 +8,7 @@ const Beranda = () => {
           <h1 className="font-bold text-5xl max-md:text-4xl uppercase">
             Lorem ipsum dolor sit amet.
           </h1>
-          <p className="font-medium mt-2">
+          <p className="c mt-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
             et suscipit. Corrupti soluta ab labore tempora illum eum iure
             cupiditate?
