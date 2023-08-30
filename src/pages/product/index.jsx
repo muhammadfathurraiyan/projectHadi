@@ -12,7 +12,7 @@ const index = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde consequuntur laudantium velit quisquam cupiditate voluptatem.
         </p>
       </div>
-      <div className="mt-14 flex gap-8 max-md:flex-col max-md:items-center">
+      <div className="mt-14 flex gap-10 max-md:flex-col max-md:items-center">
         <Card />
         <Card />
         <Card />  

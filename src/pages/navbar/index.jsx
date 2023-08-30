@@ -14,7 +14,7 @@ const Navbar = () => {
   };
   return (
     // Navigasi Bar
-    <header className={`${toggle ? "h-full" : 'h-20 bg-white'} fixed px-24 max-md:px-12 max-sm:px-8 w-full left-0 top-0 border-b border-b-gray-300 z-10`}>
+    <header className={`${toggle ? "h-full" : 'h-20 bg-green-50'} fixed px-24 max-md:px-12 max-sm:px-8 w-full left-0 top-0 border-b border-b-gray-300 z-10`}>
       <nav className="flex items-center justify-between h-20">
         {/* Logo */}
         <h1 className="font-bold text-xl z-10">Logo.</h1>
@@ -26,7 +26,7 @@ const Navbar = () => {
         >
           <li>
             <a
-              onClick={handleToggle}
+              onClick={toggle ? handleToggle : undefined}
               className={`${toggle ? "block" : "max-sm:hidden"}`}
               href="#beranda"
             >
@@ -35,7 +35,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              onClick={handleToggle}
+              onClick={toggle ? handleToggle : undefined}
               className={`${toggle ? "block" : "max-sm:hidden"}`}
               href="#product"
             >
@@ -44,7 +44,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              onClick={handleToggle}
+              onClick={toggle ? handleToggle : undefined}
               className={`${toggle ? "block" : "max-sm:hidden"}`}
               href="#tentang"
             >
@@ -53,7 +53,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              onClick={handleToggle}
+              onClick={toggle ? handleToggle : undefined}
               className={`${toggle ? "block" : "max-sm:hidden"}`}
               href="#berlangganan"
             >
