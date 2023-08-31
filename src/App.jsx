@@ -5,6 +5,7 @@ import Product from "./pages/product";
 import Tentang from "./pages/tentang";
 import Alamat from "./pages/alamat";
 import Berlangganan from "./pages/berlangganan";
+import Footer from "./pages/footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Alamat />
         <Berlangganan />
       </main>
+      <Footer />
     </>
   );
 };

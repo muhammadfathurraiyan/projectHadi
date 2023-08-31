@@ -8,7 +8,7 @@ const index = () => {
         <h1 className="uppercase text-2xl font-semibold text-white text-center">
           Lorem ipsum dolor sit amet.
         </h1>
-        <p className="text-center text-sm leading-4 text-white">
+        <p className="text-center text-white">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde consequuntur laudantium velit quisquam cupiditate voluptatem.
         </p>
       </div>

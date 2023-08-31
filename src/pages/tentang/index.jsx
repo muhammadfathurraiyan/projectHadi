@@ -3,7 +3,7 @@ import React from "react";
 const index = () => {
   return (
     <section
-      id="beranda"
+      id="tentang"
       className="relative bg-green-50 top-14 px-24 max-md:px-12 max-sm:px-8 flex flex-col items-center justify-center h-screen"
     >
       {/* bg-[url(https://picsum.photos/300)] bottom-0 bg-cover bg-center bg-no-repeat */}
