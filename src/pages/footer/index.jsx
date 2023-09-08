@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const index = () => {
   return (
@@ -12,7 +12,7 @@ const index = () => {
           <FaInstagram />
         </a>
         <a href="" className="">
-          <FaFacebook />
+          <FaTiktok />
         </a>
       </div>
       <ul className="py-4 flex gap-8 max-md:gap-6 max-sm:gap-4">

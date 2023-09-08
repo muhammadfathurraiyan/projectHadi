@@ -16,9 +16,9 @@ const App = () => {
       <main>
         <Beranda />
         <Tentang />
-        <Product />
         <Manfaat />
         <Jadwal />
+        <Product />
         <Alamat />
         <Kontak />
       </main>

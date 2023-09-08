@@ -5,7 +5,7 @@ const index = () => {
   return (
     <section
       id="tentang"
-      className="relative bg-green-50 top-14 px-24 max-md:px-12 max-sm:px-8 flex flex-col items-center justify-center h-screen"
+      className="relative bg-green-50 px-24 max-md:px-12 max-sm:px-8 flex flex-col items-center justify-center h-screen"
     >
       <div className="flex justify-around items-center max-md:flex-col max-md:justify-center">
         <div className="w-[50%] max-md:w-full">

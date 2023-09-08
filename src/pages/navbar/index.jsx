@@ -5,6 +5,7 @@ import {
   FaWhatsapp,
   FaInstagram,
   FaFacebook,
+  FaTiktok,
 } from "react-icons/fa";
 
 import Logo from "../../assets/logo.png"
@@ -74,7 +75,7 @@ const Navbar = () => {
             <FaInstagram />
           </a>
           <a href="" className="duration-300 hover:text-[#055D13]">
-            <FaFacebook />
+            <FaTiktok />
           </a>
         </div>
         {/* Bars Menu, akan muncul pada perangkat mobile */}
