@@ -3,9 +3,11 @@ import Navbar from "./pages/navbar";
 import Beranda from "./pages/beranda";
 import Product from "./pages/product";
 import Tentang from "./pages/tentang";
-import Alamat from "./pages/alamat";
-import Berlangganan from "./pages/berlangganan";
+import Alamat from "./pages/mitra";
+import Kontak from "./pages/kontak";
 import Footer from "./pages/footer";
+import Manfaat from "./pages/manfaat";
+import Jadwal from "./pages/jadwal";
 
 const App = () => {
   return (
@@ -13,10 +15,12 @@ const App = () => {
       <Navbar />
       <main>
         <Beranda />
-        <Product />
         <Tentang />
+        <Product />
+        <Manfaat />
+        <Jadwal />
         <Alamat />
-        <Berlangganan />
+        <Kontak />
       </main>
       <Footer />
     </>

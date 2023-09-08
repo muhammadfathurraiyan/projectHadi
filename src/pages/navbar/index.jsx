@@ -7,6 +7,8 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 
+import Logo from "../../assets/logo.png"
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => {
@@ -17,7 +19,9 @@ const Navbar = () => {
     <header className={`${toggle ? "h-full" : 'h-20 bg-green-50'} fixed px-24 max-md:px-12 max-sm:px-8 w-full left-0 top-0 border-b border-b-gray-300 z-10`}>
       <nav className="flex items-center justify-between h-20">
         {/* Logo */}
-        <h1 className="font-bold text-xl z-10">Logo.</h1>
+        <div className="w-12">
+          <img src={Logo} alt="Logo" />
+        </div>
         {/* List Navigasi */}
         <ul
           className={`${
@@ -55,21 +59,21 @@ const Navbar = () => {
             <a
               onClick={toggle ? handleToggle : undefined}
               className={`${toggle ? "block" : "max-sm:hidden"}`}
-              href="#berlangganan"
+              href="#kontak"
             >
-              Berlangganan
+              Kontak
             </a>
           </li>
         </ul>
         {/* Media Socials */}
         <div className="flex gap-3 text-xl z-10">
-          <a href="" className="">
+          <a href="" className="duration-300 hover:text-[#055D13]">
             <FaWhatsapp />
           </a>
-          <a href="" className="">
+          <a href="" className="duration-300 hover:text-[#055D13]">
             <FaInstagram />
           </a>
-          <a href="" className="">
+          <a href="" className="duration-300 hover:text-[#055D13]">
             <FaFacebook />
           </a>
         </div>

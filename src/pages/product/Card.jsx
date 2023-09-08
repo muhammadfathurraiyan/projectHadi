@@ -1,34 +1,33 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
+import Food from "../../assets/food.jpg";
 
-const Card = () => {
+const Card = ({ nama, harga, keterangan }) => {
   return (
     <div className="bg-white rounded-lg">
-      <img
-        className="h-44 w-80 object-cover rounded-t-lg"
-        src="https://picsum.photos/800"
-        alt=""
-      />
-      <div className="px-6 py-6">
+      <img className="h-44 w-80 object-cover rounded-t-lg" src={Food} alt="" />
+      <div className="px-6 py-6 ">
         <div className="mb-4">
-          <h3 className="font-semibold text-lg">Lorem 1</h3>
-          <p className="font-medium">Rp.12.000</p>
+          <h3 className="font-semibold text-lg">{nama}</h3>
+          <p className="font-medium">{harga}</p>
         </div>
         <div>
           <ul>
-            <li className="flex items-center justify-between mb-1">
-              Lorem, ipsum dolor. <span className="text-green-500"><FaCheck /></span>
-            </li>
-            <li className="flex items-center justify-between mb-1">
-              Lorem, ipsum dolor. <span className="text-green-500"><FaCheck /></span>
-            </li>
-            <li className="flex items-center justify-between mb-1">
-              Lorem, ipsum dolor. <span className="text-green-500"><FaCheck /></span>
-            </li>
+            {keterangan.map((keterangan) => (
+              <li
+                id={keterangan}
+                className="flex items-center justify-between mb-1"
+              >
+                {keterangan}
+                <span className="text-green-500">
+                  <FaCheck />
+                </span>
+              </li>
+            ))}
           </ul>
         </div>
-        <a className="bg-green-500 py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
-          Button
+        <a className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
+          Pesan
         </a>
       </div>
     </div>
@@ -36,3 +35,32 @@ const Card = () => {
 };
 
 export default Card;
+
+// import React from "react";
+// import Food from "../../assets/food.jpg"
+
+// const Card = ({ nama, harga }) => {
+//   return (
+//     <div className="bg-white rounded-lg">
+//       <img
+//         className="h-44 w-80 object-cover rounded-t-lg"
+//         src={Food}
+//         alt=""
+//       />
+//       <div className="px-6 py-6">
+//         <div className="mb-4">
+//           <h3 className="font-semibold text-lg">{nama}</h3>
+//           <p className="font-medium">{harga}</p>
+//         </div>
+//         <div>
+//           <p>{}</p>
+//         </div>
+//         <a className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
+//           Button
+//         </a>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Card;

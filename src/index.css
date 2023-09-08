@@ -5,7 +5,8 @@
 
 @layer base {
   body {
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
+    @apply font-["Inter",_sans-serif] text-zinc-900;
   }
 
   body::-webkit-scrollbar {
