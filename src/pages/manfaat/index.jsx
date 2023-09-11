@@ -1,5 +1,5 @@
 import React from "react";
-import Cek from "../../assets/cek.webp"
+import Cek from "../../assets/cek.jpg"
 
 const index = () => {
   return (

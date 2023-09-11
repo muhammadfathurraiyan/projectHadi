@@ -10,10 +10,10 @@
   }
 
   body::-webkit-scrollbar {
-    display: none;
+    @apply hidden
   }
 
   html {
-    scroll-behavior: smooth;
+    @apply scroll-smooth
   }
 }

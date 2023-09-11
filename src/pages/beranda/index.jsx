@@ -7,7 +7,7 @@ const Beranda = () => {
     <section
       id="beranda"
       style={{ backgroundImage: `url(${Food})` }}
-      className="relative flex items-center h-screen max-md:h-[120vh] bg-fixed bg-top bg-no-repeat bg-cover w-full"
+      className="relative flex items-center h-screen max-md:h-[120vh] bg-fixed bg-center bg-no-repeat bg-cover w-full"
     >
       <div className="flex justify-normal px-24 max-md:px-12 max-sm:px-8 h-full items-center max-md:flex-col max-md:items-start max-md:justify-center p-12 bg-black/50 rounded-lg w-[65%] max-md:w-full">
         <div className="">

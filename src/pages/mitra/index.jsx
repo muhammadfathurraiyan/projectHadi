@@ -1,14 +1,4 @@
 import React from "react";
-import {
-  FaInstagram,
-  FaLocationArrow,
-  FaLocationDot,
-  FaMap,
-  FaTiktok,
-  FaWhatsapp,
-} from "react-icons/fa6";
-
-import People from "../../assets/people.png";
 
 const index = () => {
   return (
