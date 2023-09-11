@@ -8,10 +8,10 @@ const index = () => {
         <a href="" className="">
           <FaWhatsapp />
         </a>
-        <a href="" className="">
+        <a href="https://www.instagram.com/rumoh_dm/" target="_blank" className="">
           <FaInstagram />
         </a>
-        <a href="" className="">
+        <a href="http://tiktok.com/@rumohdm" target="_blank" className="">
           <FaTiktok />
         </a>
       </div>

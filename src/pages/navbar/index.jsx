@@ -71,10 +71,10 @@ const Navbar = () => {
           <a href="" className="duration-300 hover:text-[#055D13]">
             <FaWhatsapp />
           </a>
-          <a href="" className="duration-300 hover:text-[#055D13]">
+          <a href="https://www.instagram.com/rumoh_dm/" target="_blank" className="duration-300 hover:text-[#055D13]">
             <FaInstagram />
           </a>
-          <a href="" className="duration-300 hover:text-[#055D13]">
+          <a href="http://tiktok.com/@rumohdm" target="_blank" className="duration-300 hover:text-[#055D13]">
             <FaTiktok />
           </a>
         </div>
