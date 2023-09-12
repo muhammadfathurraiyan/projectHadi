@@ -20,7 +20,7 @@ const Navbar = () => {
     <header className={`${toggle ? "h-full" : 'h-20 bg-green-50'} fixed px-24 max-md:px-12 max-sm:px-8 w-full left-0 top-0 border-b border-b-gray-300 z-10`}>
       <nav className="flex items-center justify-between h-20">
         {/* Logo */}
-        <div className="w-12">
+        <div className="relative z-10 w-12">
           <img src={Logo} alt="Logo" />
         </div>
         {/* List Navigasi */}
@@ -67,8 +67,8 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Media Socials */}
-        <div className="flex gap-3 text-xl z-10">
-          <a href="" className="duration-300 hover:text-[#055D13]">
+        <div className="relative flex gap-3 text-xl z-10">
+          <a href="https://wa.me/+6285261811920/" target="_blank" className="duration-300 hover:text-[#055D13]">
             <FaWhatsapp />
           </a>
           <a href="https://www.instagram.com/rumoh_dm/" target="_blank" className="duration-300 hover:text-[#055D13]">

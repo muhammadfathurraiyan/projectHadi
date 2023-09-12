@@ -26,7 +26,7 @@ const Card = ({ nama, harga, keterangan }) => {
             ))}
           </ul>
         </div>
-        <a className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfKEdx2Y255ICoSwD9b2KqD8-ifcbubpq--7ijuNHyFyMEvoQ/viewform?usp=sf_link " className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
           Pesan
         </a>
       </div>

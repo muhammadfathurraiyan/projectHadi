@@ -5,7 +5,7 @@ const index = () => {
   return (
     <footer className="relative text-green-100 top-14 bg-[#055D13] flex flex-col items-center py-16 px-24 max-md:px-12 max-sm:px-8">
       <div className="flex gap-4 text-3xl ">
-        <a href="" className="">
+        <a href="https://wa.me/+6285261811920/" target="_blank" className="">
           <FaWhatsapp />
         </a>
         <a href="https://www.instagram.com/rumoh_dm/" target="_blank" className="">
