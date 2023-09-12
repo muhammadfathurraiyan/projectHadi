@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
-import Food from "../../assets/food.jpg";
+import Food from "../../assets/food1.jpg";
 
 const Card = ({ nama, harga, keterangan }) => {
   return (

@@ -25,7 +25,7 @@ const index = () => {
               <FaInstagram /> @rumoh_dm
             </div>
             <div className="flex gap-1 items-center">
-              <FaWhatsapp /> +6285930314389
+              <FaWhatsapp /> +6285261811920
             </div>
             <div className="flex gap-1 items-center">
               <FaTiktok /> @rumoh_dm
