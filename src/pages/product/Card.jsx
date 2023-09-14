@@ -35,32 +35,3 @@ const Card = ({ nama, harga, keterangan }) => {
 };
 
 export default Card;
-
-// import React from "react";
-// import Food from "../../assets/food.jpg"
-
-// const Card = ({ nama, harga }) => {
-//   return (
-//     <div className="bg-white rounded-lg">
-//       <img
-//         className="h-44 w-80 object-cover rounded-t-lg"
-//         src={Food}
-//         alt=""
-//       />
-//       <div className="px-6 py-6">
-//         <div className="mb-4">
-//           <h3 className="font-semibold text-lg">{nama}</h3>
-//           <p className="font-medium">{harga}</p>
-//         </div>
-//         <div>
-//           <p>{}</p>
-//         </div>
-//         <a className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
-//           Button
-//         </a>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Card;
