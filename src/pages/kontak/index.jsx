@@ -18,7 +18,7 @@ const index = () => {
     >
       <div className="flex justify-around w-full h-full bg-black/80 px-24 max-md:px-12 max-sm:px-8 items-center max-md:flex-col max-md:justify-center">
         <div className="w-[50%] max-md:w-full">
-          <h1 className="font-bold text-[#055D13] text-5xl  max-md:text-4xl">Hubungi kami.</h1>
+          <h1 className="font-bold text-white/80 text-5xl  max-md:text-4xl">Hubungi kami.</h1>
           <p className=" text-lg text-white/80 font-medium mt-2">Social Media : </p>
           <div className="text-white/80">
             <div className="flex gap-1 items-center">

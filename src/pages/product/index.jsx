@@ -13,9 +13,9 @@ const index = () => {
         </p>
       </div>
       <div className="mt-14 flex gap-10 max-md:flex-col max-md:items-center">
-        <Card nama="Paket 1" harga="Rp. 175.000" keterangan={["Menu mingguan yang bervarisi"]} />
-        <Card nama="Paket 2" harga="Rp. 350.000" keterangan={["Include paket 1", "Kunjungan mingguan kerumah", "Kontrol gula darah"]} />
-        <Card nama="Paket 3" harga="Rp. 500.000" keterangan={["Include paket 2", "Konsultasi dengan dokter"]} />  
+        <Card nama="Paket 1" waktu="1 Bulan" harga="Rp. 175.000" keterangan={["Menu mingguan yang bervarisi"]} />
+        <Card nama="Paket 2" waktu="3 Bulan" harga="Rp. 350.000" keterangan={["Include paket 1", "Kunjungan mingguan kerumah", "Kontrol gula darah"]} />
+        <Card nama="Paket 3" waktu="12 Bulan" harga="Rp. 500.000" keterangan={["Include paket 2", "Konsultasi dengan dokter"]} />  
       </div>
       <div className="absolute left-0 -bottom-20 w-full overflow-hidden">
         <svg

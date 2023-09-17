@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/logo.png";
 
 const index = () => {
   return (
@@ -19,13 +19,16 @@ const index = () => {
             yang dapat meningkatkan kontrol metabolik dan kualitas hidup
             peyandang diabetes
           </p>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1saLeb79nUPuKQmcYmPlFd_ckt5LWpVhl/view?usp=drivesdk"
+            className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300"
+          >
+            Lebih lanjut!
+          </a>
         </div>
         <div className="-order-1 max-md:mb-4 w-1/4 max-sm:w-1/2">
-          <img
-            className="rounded-xl"
-            src={Logo}
-            alt="dummyImage"
-          />
+          <img className="rounded-xl" src={Logo} alt="dummyImage" />
         </div>
       </div>
     </section>
