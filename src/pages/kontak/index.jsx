@@ -42,9 +42,9 @@ const index = () => {
             width="300"
             height="300"
             className="border-none rounded-lg"
-            allowfullscreen=""
+            allowFullScreen
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

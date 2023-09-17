@@ -3,19 +3,39 @@ import Card from "./Card";
 
 const index = () => {
   return (
-    <section id="product" className="relative -top-1 flex flex-col justify-center items-center bg-[#FFDF96] py-24 px-24 max-md:px-12 max-sm:px-8">
+    <section
+      id="product"
+      className="relative -top-1 flex flex-col justify-center items-center bg-[#FFDF96] py-24 px-24 max-md:px-12 max-sm:px-8"
+    >
       <div>
-        <h1 className="text-4xl font-bold text-center">
-          Paket Diet.
-        </h1>
+        <h1 className="text-4xl font-bold text-center">Paket Diet.</h1>
         <p className="text-center">
           Rumoh DM menawarkan paket diet DM untuk hidup lebih sehat.
         </p>
       </div>
       <div className="mt-14 flex gap-10 max-md:flex-col max-md:items-center">
-        <Card nama="Paket 1" waktu="1 Bulan" harga="Rp. 175.000" keterangan={["Menu mingguan yang bervarisi"]} />
-        <Card nama="Paket 2" waktu="3 Bulan" harga="Rp. 350.000" keterangan={["Include paket 1", "Kunjungan mingguan kerumah", "Kontrol gula darah"]} />
-        <Card nama="Paket 3" waktu="12 Bulan" harga="Rp. 500.000" keterangan={["Include paket 2", "Konsultasi dengan dokter"]} />  
+        <Card
+          nama="Paket 1"
+          waktu="3 Bulan"
+          harga="Rp. 175.000"
+          keterangan={["Menu mingguan yang bervarisi"]}
+        />
+        <Card
+          nama="Paket 2"
+          waktu="6 Bulan"
+          harga="Rp. 350.000"
+          keterangan={[
+            "Include paket 1",
+            "Kunjungan mingguan kerumah",
+            "Kontrol gula darah",
+          ]}
+        />
+        <Card
+          nama="Paket 3"
+          waktu="12 Bulan"
+          harga="Rp. 500.000"
+          keterangan={["Include paket 2", "Konsultasi dengan dokter"]}
+        />
       </div>
       <div className="absolute left-0 -bottom-20 w-full overflow-hidden">
         <svg

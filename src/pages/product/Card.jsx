@@ -16,7 +16,7 @@ const Card = ({ nama, harga, keterangan, waktu }) => {
           <ul>
             {keterangan.map((keterangan) => (
               <li
-                id={keterangan}
+                key={keterangan}
                 className="flex items-center justify-between mb-1"
               >
                 {keterangan}
@@ -27,7 +27,7 @@ const Card = ({ nama, harga, keterangan, waktu }) => {
             ))}
           </ul>
         </div>
-        <a target="_blank" const href={`https://wa.me/6285261811920?text=Saya%20tertarik%20dengan%20layanan%20${nama}`} className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
+        <a target="_blank" href={`https://wa.me/6285261811920?text=Saya%20tertarik%20dengan%20layanan%20${nama}`} className="bg-[#055D13] cursor-pointer py-3 px-4 inline-block mt-4 rounded-md text-white hover:bg-green-700 duration-300">
           Pesan
         </a>
       </div>

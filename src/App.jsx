@@ -8,6 +8,7 @@ import Kontak from "./pages/kontak";
 import Footer from "./pages/footer";
 import Manfaat from "./pages/manfaat";
 import Jadwal from "./pages/jadwal";
+import Modal from "./pages/mitra/Modal";
 
 const App = () => {
   return (
