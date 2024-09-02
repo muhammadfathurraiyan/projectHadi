@@ -9,6 +9,7 @@ import Footer from "./pages/footer";
 import Manfaat from "./pages/manfaat";
 import Jadwal from "./pages/jadwal";
 import Modal from "./pages/mitra/Modal";
+import Video from "./pages/video";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Jadwal />
         <Product />
         <Alamat />
+        <Video />
         <Kontak />
       </main>
       <Footer />
