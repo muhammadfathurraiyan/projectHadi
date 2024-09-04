@@ -8,7 +8,7 @@ import Kontak from "./pages/kontak";
 import Footer from "./pages/footer";
 import Manfaat from "./pages/manfaat";
 import Jadwal from "./pages/jadwal";
-import Modal from "./pages/mitra/Modal";
+import Team from "./pages/team";
 import Video from "./pages/video";
 
 const App = () => {
@@ -23,6 +23,7 @@ const App = () => {
         <Product />
         <Alamat />
         <Video />
+        <Team />
         <Kontak />
       </main>
       <Footer />

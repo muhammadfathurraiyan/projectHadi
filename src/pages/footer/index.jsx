@@ -8,7 +8,11 @@ const index = () => {
         <a href="https://wa.me/+6285261811920/" target="_blank" className="">
           <FaWhatsapp />
         </a>
-        <a href="https://www.instagram.com/rumoh_dm/" target="_blank" className="">
+        <a
+          href="https://www.instagram.com/rumoh_dm/"
+          target="_blank"
+          className=""
+        >
           <FaInstagram />
         </a>
         <a href="http://tiktok.com/@rumohdm" target="_blank" className="">
@@ -30,10 +34,10 @@ const index = () => {
         </li>
       </ul>
       <p className="text-sm font-medium text-center">
-        &copy; Rumoh DM 2023, All rights reserved. Site Designed By:{" "}
+        &copy; 2023-2024 Rumoh DM, All rights reserved. Site Designed By:{" "}
         <a
-          className="font-bold"
-          href="https://muhammadfathurraiyan.site/"
+          className="font-bold hover:text-green-500 duration-300"
+          href="https://muhammadfathurraiyan.vercel.app/"
           target="_blank"
         >
           Raiyan
